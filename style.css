@@ -11,6 +11,12 @@ body {
     display: grid;
     place-items: center;
 }
+.tituloCalc{
+    font-family: 'Silkscreen', cursive;
+    color: white;
+    font-size: 3em;
+    text-shadow:  5px 5px 5px black;
+}
 .calculadora{
     background-color: #15173c;
     color: white;
@@ -64,8 +70,8 @@ body {
 #linkedin{
     width: 20%;
     height: auto;  
-  }
-  .firma{
+}
+.firma{
     color: white;
     display: inline;
     text-align: center;
@@ -74,4 +80,338 @@ body {
     right: 0%;
     bottom: 5%;
     text-shadow:  5px 5px 5px black;
-  }
+}
+@media screen and (min-width: 280px) {
+    .firma{
+        position: relative;
+        margin-top: 5%;
+        font-size: 1em;
+    }
+    .tituloCalc{
+        margin-top: 1%;
+        margin-bottom: 1%;
+        padding: 0;
+        font-size: 2.8em;
+    }
+    .calculadora{
+        margin-top: 10%;
+        margin-bottom: 5%;
+        transform: scale(0.9);
+    }
+    #github{
+        margin-top: 5%;
+        margin-left: 0%;
+        width: 60%;
+        height: auto;
+        position: absolute;
+        bottom: 4%;
+        left: -10%;
+      }
+    #linkedin{
+        width: 60%;
+        height: auto;
+        position: relative;
+        left: 40%; 
+        margin-top: 10%; 
+    }
+    
+}
+@media screen and (min-width: 375px) {
+    .firma{
+        position: relative;
+        margin-top: 5%;
+    }
+    .tituloCalc{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-size: 2.5em;
+    }
+    #github{
+        margin-top: 5%;
+        margin-left: 0%;
+        width: 60%;
+        height: auto;
+        position: absolute;
+        bottom: 4%;
+        left: -10%;
+      }
+    #linkedin{
+        width: 60%;
+        height: auto;
+        position: relative;
+        left: 40%; 
+        margin-top: 10%; 
+    }
+    
+}
+@media screen and (min-width: 414px) {
+    .firma{
+        position: relative;
+        margin-top: 5%;
+        font-size: 1em;
+    }
+    .tituloCalc{
+        margin-top: 1%;
+        margin-bottom: 1%;
+        padding: 0;
+        font-size: 2.8em;
+    }
+    #github{
+        margin-top: 5%;
+        margin-left: 0%;
+        width: 60%;
+        height: auto;
+        position: absolute;
+        bottom: 4%;
+        left: -10%;
+      }
+    #linkedin{
+        width: 60%;
+        height: auto;
+        position: relative;
+        left: 40%; 
+        margin-top: 10%; 
+    }
+    
+}
+@media screen and (min-height: 740px) {
+    .firma{
+        position: relative;
+        margin-top: 5%;
+        font-size: 1em;
+    }
+    .tituloCalc{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        padding: 0;
+        font-size: 3em;
+    }
+    #github{
+        margin-top: 5%;
+        margin-left: 0%;
+        width: 60%;
+        height: auto;
+        position: absolute;
+        bottom: 4%;
+        left: -10%;
+      }
+    #linkedin{
+        width: 60%;
+        height: auto;
+        position: relative;
+        left: 40%; 
+        margin-top: 10%; 
+    }
+    
+}
+@media screen and (min-width: 820px) {
+    .firma{
+        position: relative;
+        margin-top: 13%;
+        font-size: 1em;
+    }
+    .tituloCalc{
+        margin-top: 1%;
+        margin-bottom: 10%;
+        padding: 0;
+        font-size: 4em;
+    }
+    .calculadora{
+        transform: scale(1.4);
+    }
+    #github{
+        margin-top: 5%;
+        margin-left: 0%;
+        width: 40%;
+        height: auto;
+        position: absolute;
+        bottom: 1%;
+        left: 05%;
+      }
+    #linkedin{
+        width: 40%;
+        height: auto;
+        position: relative;
+        left: 30%; 
+        margin-top: 10%; 
+    }
+    
+}
+@media screen and (width: 768px) and (height: 1024px) {
+    .firma{
+        position: relative;
+        margin-top: 13%;
+        font-size: 1em;
+    }
+    .tituloCalc{
+        margin-top: 1%;
+        margin-bottom: 10%;
+        padding: 0;
+        font-size: 4em;
+    }
+    .calculadora{
+        margin-top: 10%;
+        margin-bottom: 5%;
+        transform: scale(1.4);
+    }
+    #github{
+        margin-top: 5%;
+        margin-left: 0%;
+        width: 40%;
+        height: auto;
+        position: absolute;
+        bottom: 1%;
+        left: 05%;
+      }
+    #linkedin{
+        width: 40%;
+        height: auto;
+        position: relative;
+        left: 30%; 
+        margin-top: 10%; 
+    }
+    
+}
+@media screen and (width: 912px) and (height: 1368px) {
+    .firma{
+        position: relative;
+        margin-top: 13%;
+        font-size: 1em;
+    }
+    .tituloCalc{
+        margin-top: 1%;
+        margin-bottom: 10%;
+        padding: 0;
+        font-size: 4em;
+    }
+    .calculadora{
+        margin-top: 10%;
+        margin-bottom: 5%;
+        transform: scale(1.8);
+    }
+    #github{
+        margin-top: 5%;
+        margin-left: 0%;
+        width: 40%;
+        height: auto;
+        position: absolute;
+        bottom: 1%;
+        left: 05%;
+      }
+    #linkedin{
+        width: 40%;
+        height: auto;
+        position: relative;
+        left: 30%; 
+        margin-top: 10%; 
+    }
+    
+}
+@media screen and (min-width: 1024px) and (min-height: 600px) {
+    .firma{
+        position: absolute;
+        margin-top: 13%;
+        font-size: 1em;
+    }
+    .tituloCalc{
+        margin-top: 1%;
+        margin-bottom: 10%;
+        padding: 0;
+        font-size: 4em;
+    }
+    .calculadora{
+        margin-top: -5%;
+        margin-bottom: 5%;
+        transform: scale(0.8);
+    }
+    #github{
+        margin-top: 4%;
+        margin-left: 0%;
+        width: 20%;
+        height: auto;
+        position: absolute;
+        bottom: 1%;
+        left: 30%;
+      }
+    #linkedin{
+        width: 20%;
+        height: auto;
+        position: relative;
+        left: 10%; 
+        margin-top: 10%; 
+    }
+    
+}
+@media screen and (min-width: 1280px) and (min-height: 800px) {
+    .firma{
+        position: absolute;
+        margin-top: 13%;
+        font-size: 1em;
+    }
+    .tituloCalc{
+        margin-top: -7%;
+        margin-bottom: 10%;
+        padding: 0;
+        font-size: 4em;
+    }
+    .calculadora{
+        margin-top: -5%;
+        margin-bottom: 5%;
+        transform: scale(1.3);
+    }
+    #github{
+        margin-top: 4%;
+        margin-left: 0%;
+        width: 20%;
+        height: auto;
+        position: absolute;
+        bottom: 1%;
+        left: 30%;
+      }
+    #linkedin{
+        width: 20%;
+        height: auto;
+        position: relative;
+        left: 10%; 
+        margin-top: 10%; 
+    }
+    
+}
+@media screen and (min-width: 1024px) and (min-height: 1000px) {
+    .firma{
+        position: absolute;
+        margin-top: 13%;
+        font-size: 1em;
+    }
+    .tituloCalc{
+        margin-top: -7%;
+        margin-bottom: 10%;
+        padding: 0;
+        font-size: 4em;
+        position: initial;
+        top:15%;
+        left: 30%;
+    }
+    .calculadora{
+        margin-top: -20%;
+        margin-bottom: 5%;
+        transform: scale(1.8);
+    }
+    #github{
+        margin-top: 4%;
+        margin-left: 0%;
+        width: 20%;
+        height: auto;
+        position: absolute;
+        bottom: 1%;
+        left: 30%;
+      }
+    #linkedin{
+        width: 20%;
+        height: auto;
+        position: relative;
+        left: 10%; 
+        margin-top: 10%; 
+    }
+    
+}
